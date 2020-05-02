@@ -11,10 +11,10 @@ const fetchUserDetails = async () => {
             </div>
             <div class="details">
                 <h2>${user.name}</h2>
+                <p><i class="fas fa-home fa-2x"></i> ${user.hometown}</p>
                 <div><i class="fas fa-envelope-square fa-2x"></i> ${user.email}</div> 
-                <p>${user.skills}</p>
-                <a href="${user.linkedIN}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                <blockquote>${user.quotes}</blockquote>
+                <p><i class="fas fa-wrench fa-2x"></i> ${user.skills}</p>
+                <p><i class="fab fa-angellist fa-2x"></i> ${user.hobby}</p>
             </div>
        </div>
         `
