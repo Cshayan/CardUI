@@ -15,6 +15,7 @@ const fetchUserDetails = async () => {
                 <div><i class="fas fa-envelope-square fa-2x"></i> ${user.email}</div> 
                 <p><i class="fas fa-wrench fa-2x"></i> ${user.skills}</p>
                 <p><i class="fab fa-angellist fa-2x"></i> ${user.hobby}</p>
+                <p><i class="far fa-smile-wink fa-2x"></i> ${user.romanChar}</p>
             </div>
        </div>
         `
